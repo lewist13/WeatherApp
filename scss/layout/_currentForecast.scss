@@ -35,8 +35,9 @@
       @include mq(768px) {
         font-size: 9rem;
       }
+
       .unit {
-        font-size: 1.6rem;
+        font-size: 1.65rem;
         color: $fadecolor;
         text-shadow: none;
         position: absolute;
@@ -84,7 +85,7 @@
       @include mqMaxWMinH(1024px, 650px) {
         margin-top: 1.5rem;
       }
-      @include mq(1080px) {
+      @include mqh(1080px) {
         margin-top: 1.5rem;
       }
     }
